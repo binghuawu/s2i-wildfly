@@ -44,4 +44,4 @@ RUN chown -R 1001:0 /wildfly && chown -R 1001:0 $HOME && \
 
 USER 1001
 
-CMD $STI_SCRIPTS_PATH/usage
+CMD $STI_SCRIPTS_PATH/run
